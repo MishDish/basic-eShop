@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+}
+
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#clearfix {
+	display: inline-block;
+}
+
+#clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+label,input {
+	display: block;
+	float: left;
+	margin-bottom: 3px;
+}
+
+input {
+	margin-bottom: 3px;
+}
+
+label {
+	text-align: right;
+	width: 107px;
+	padding-right: 10px;
+}
+
+#registrujse {
+	clear: both;
+	display: block;
+	margin-left: 120px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+	background-color: #FFF;
+	position: relative;
+}
+
+#header {
+	background-color: #3A6EA5;
+	width: 960px;
+	height: 112px;
+	overflow: auto;
+}
+
+#levo {
+	float: left;
+	width: 200px;
+	background-color: #BBB;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#desno {
+    float: left;
+    width: 760px;
+	background-color: #BBB;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#footer {
+    clear: both;
+	width: 960px;
+	height: 50px;
+	background-color: #3A6EA5;
+}
+
+#login {
+	width: 300px;
+	height: 101px;
+	background-color: #3A6EA5;
+	overflow: auto;
+	float: left;
+	margin-top: 8px;
+}
+
+#logo {
+	width: 530px;
+	height: 109px;
+	background-color: #3A6EA5;
+	overflow: auto;
+	float: left;
+	margin-top: 3px;
+}
+
+#korpa {
+	width: 130px;
+	height: 109px;
+	background-color: #3A6EA5;
+	overflow: auto;
+	float: left;
+	margin-top: 3px;
+}
+
+#sadrzaj {
+	width: 960px;
+	height: 600px;
+	background-color: #39C;
+	overflow: auto;
+	float: left;
+}
+
+#header p, #levo p, #desno p, #footer p, #login p, #logo p, #meni p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+#korpa p {
+	margin: 0;
+	margin-left: 0px;
+	text-align: center;
+}
+
+#korpa img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sadrzaj p {
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#navlist {
+	background-color: #AA6EA5;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#navlist li {
+	background-color: #AA6EA5;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+#registracija_forma {
+	margin-top: 30px;
+	text-align:center;
+}
+
+#registracija_forma h1 {
+	font-size:30px;
+	margin: 0;
+}
+
+#registracija_forma label, input {
+	display: block;
+	float: left;
+}
+
+#registracija_forma label {
+	text-align: right;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	clear:both;
+	font-size:16px;
+}
+
+#kategorije {
+	width: 200px;
+	height: 100%;
+	background-color: #39C;
+	float: left;
+}
+
+#kategorija {
+	width: 200px;
+	height: 20px;
+	float: left;
+	background-color: #3A6EA5;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+#proizvodi {
+	width: 750px;
+	height: 90%;
+	background-color: #39C;
+	float: left;
+}
+
+#proizvod {
+	width: 140px;
+	height: 130px;
+	float: left;
+	background-color: #3A6EA5;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#proizvod img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	height: 64px;
+}
+
+#proizvod-opis {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 14px;
+}

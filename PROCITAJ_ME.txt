@@ -1,0 +1,27 @@
+Ovde smeštamo sve što treba da uradimo, a nismo uradili.
+Ovde takode smeštamo i komentare
+
+Linkovi menija
+----------------------------
+index.php?meni=1    Pocetna strana
+index.php?meni=2	O nama
+index.php?meni=3	Proizvodi
+index.php?meni=4	Kontakt
+index.php?meni=5	Sadrzaj korpe
+index.php?meni=6	Potvrda i placanje
+index.php?meni=9	Registracija
+
+Kodovi za status polja narudzbenica
+------------------------------------
+0 - Odbijeno
+1 - Jos uvek nismo odlucili da li saljemo proizvod
+2 - Cekamo na isporuku
+3 - Na putu je
+4 - Isporuceno
+
+
+
+
+
+
+
